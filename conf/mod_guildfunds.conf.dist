@@ -1,18 +1,18 @@
 [worldserver]
 
 ##
-# Print information to the player about the amount of extra gold that got deposited to the guild bank
+# 向玩家打印有关存入公会银行的额外金币数量的信息
 GuildFunds.ShowInfo = 1
 ##
 
 ##
-# The amount, in percentage, of money looted to add to the guild bank
-# Set to 0 to disable
+# 被掠夺以添加到公会银行的钱的百分比
+# 设置为 0 禁用
 GuildFunds.Looted = 10
 ##
 
 ##
-# The amount, in percentage, of money gained from quests to add to the guild bank
-# Set to 0 to disable
+# 增加公会银行的任务获得的金钱百分比
+# 设置为 0 禁用
 GuildFunds.Quests = 3
 ##
