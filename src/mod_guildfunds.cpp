@@ -115,7 +115,11 @@ public:
             if (gfQuestMultiplier < 1)
                 return;
 
-            uint32 playerLevel = player->getLevel();
+            uint32 playerLevel = player->GetLevel();
+
+            if (quest->GetRewOrReqMoney(playerLevel) < 1)
+                return;
+
             uint32 money = quest->GetRewOrReqMoney(playerLevel) * gfQuestMultiplier / 100;
 
             if (money < 1)
